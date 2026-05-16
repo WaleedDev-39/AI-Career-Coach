@@ -33,11 +33,10 @@ export const config = {
 
 
 
-// this is middleware.js file for Clerk authentication in Next.js app using Clerk's Next.js SDK.
-
+// this is proxy.js file for Clerk authentication in Next.js app using Clerk's Next.js SDK.
 // steps to use the clerk authentication in out nextjs app:
 // 1. install the clerk nextjs sdk by running the command: npm install @clerk/nextjs
-// 2. create a middleware.js file in the root directory of the project. and copy the above code in it.
+// 2. create a proxy.js file in the root directory of the project. and copy the above code in it.
 // 3. wrap the app with ClerkProvider in the layout.js file.
 // 4. create an account on clerk.dev and create a new application. and get the publishable key and secret key.
 // 5. create a .env.local file in the root directory of the project and add the following environment variables:
